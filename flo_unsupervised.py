@@ -148,14 +148,3 @@ final_df.groupby("segment").agg({"order_num_total_ever_online":["mean","min","ma
                                   "recency":["mean","min","max"],
                                   "tenure":["mean","min","max","count"]})
 
-
-
-
-
-
-
-
-
-
-
-
